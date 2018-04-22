@@ -2,3 +2,10 @@
 margin: 100px
 }
 
+h1:hover{
+    color: red;
+}
+
+img:hover{
+    color: forestgreen;
+}
