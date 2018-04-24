@@ -13,25 +13,31 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
-    <script src="JS/fruits.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    crossorigin="anonymous">
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
+    <script src="JS/fruits.js"></script>
+ 
 </head>
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+      
     <div class="container">
         <br>
         <h1>SZNL</h1>
         <h4>This application shows the fruits that are currently in season.</h4>
         <br><br>
         <div class="row">
-            <div class="col"><img src="sznlFruits/orange.png" alt="orange"></div>
-            <div class="col"><img src="sznlFruits/pears.png" alt="pears"></div>
+            <div class="orange col"><img src="sznlFruits/orange.png" alt="orange">
+                <div class="overlay">
+                    <div class="text">Orange</div>
+                </div>
+            </div>
+            <div class="pears col"><img src="sznlFruits/pears.png" alt="pears"></div>
             <div class="col"><img src="sznlFruits/grapes.png" alt="grapes"></div>
             <div class="col"><img src="sznlFruits/kiwi.png" alt="kiwi"></div>
         </div>
@@ -44,7 +50,7 @@
         </div>
         <div class="marginSpace"></div>
         <div class="row">
-            <div class="col"><img src="sznlFruits/mango.png" alt="orange"></div>
+            <div class="col"><img src="sznlFruits/mango.png" class="orange" alt="orange"></div>
             <div class="col"><img src="sznlFruits/strawberry.png" alt="grapes"></div>
             <div class="col"><img src="sznlFruits/plum.png" alt="grapes"></div>
             <div class="col"><img src="sznlFruits/pineapple.png" alt="grapes"></div>
