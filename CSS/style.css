@@ -2,9 +2,7 @@
 margin: 100px
 }
 
-h1:hover{
-    color: red;
-}
+
 h1{
     font-size: 300px;
 }
@@ -23,24 +21,70 @@ h1{
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 50%;
+    opacity: 0;
     transition: .5s ease;
-    background-color:rgba(255, 255, 255, 0.87);
+    background-color:rgb(255, 255, 255);
   }
   
-  .container:hover .overlay {
-    opacity: 2;
-
+  .orange:hover .overlay {
+    opacity: 1;
   }
-
-  
-  .text {
+  .pears:hover .overlay {
+    opacity: 1;
+  }
+  .grapes:hover .overlay {
+    opacity: 1;
+  }
+  .kiwi:hover .overlay {
+    opacity: 1;
+  }
+  .orangeText {
     color:orange;
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 25%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+  }
+  .pearText {
+    color:#90C46B;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .grapeText {
+    color:#311D5F;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; 
+  }
+  .kiwiText {
+    color:#8B572A;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; 
+  }
+  .mangoText {
+    color:#F9874A;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; 
   }
